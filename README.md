@@ -1,6 +1,6 @@
 # VibeSec Test App
 
-**This repo is a test fixture for the VibeSec security scanner.** It intentionally contains security findings so you can verify your workflow.
+**This repo is a test fixture for the VibeSec security scanner.** (Push #2) It intentionally contains security findings so you can verify your workflow.
 
 ## What's in here (for scanner testing)
 
