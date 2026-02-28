@@ -1,6 +1,7 @@
 /**
  * Simple Express app - test fixture for VibeSec scanner.
  * Uses vulnerable body-parser for dependency scan testing.
+ * Updated: post-remediation.
  */
 
 const express = require("express");

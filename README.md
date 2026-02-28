@@ -1,18 +1,18 @@
 # VibeSec Test App
 
-**This repo is a test fixture for the VibeSec security scanner.** (Push #2) It intentionally contains security findings so you can verify your workflow.
+**This repo is a test fixture for the VibeSec security scanner.** Secrets have been remediated; dependency and scanner docs below.
 
 ## What's in here (for scanner testing)
 
-### 1. Hardcoded secrets
-- **config.js** – OpenAI key (`sk-`), AWS keys (`AKIA`), Stripe (`sk_live_` / `pk_live_`), GitHub token (`ghp_`), and generic `password=`, `secret=`, `api_key=` style values (all fake).
-- **app.py** – Same patterns in Python.
+### 1. Secrets
+- **config.js** / **app.py** – Load from environment only (no hardcoded secrets).
+- **.env** – In `.gitignore`; use `.env.example` as a template.
 
-### 2. .env exposure
-- **.env** – Committed and **not** in `.gitignore`, with real-looking values.
-- **.env.example** – Contains real-looking credential placeholders (scanner checks for this).
+### 2. .env
+- **.env** – Not committed (in `.gitignore`).
+- **.env.example** – Placeholder values only; copy to `.env` and fill in locally.
 
-### 3. Vulnerable dependencies
+### 3. Vulnerable dependencies (for scan testing)
 - **requirements.txt** – `requests==2.28.0` (known CVEs; fixed in 2.32.x).
 - **package.json** – `body-parser@1.19.2` (CVE-2024-45590, HIGH; fixed in 1.20.3).
 
