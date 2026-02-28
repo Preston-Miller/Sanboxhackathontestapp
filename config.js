@@ -1,26 +1,21 @@
 /**
  * App configuration - DO NOT use in production (test fixture for security scanner)
  * Updated: small change to trigger VibeSec scan on push (v2)
+ * All secrets loaded from environment - no hardcoded values.
  */
 
-// OpenAI API key (pattern: sk- + 20+ alphanumeric)
-const OPENAI_API_KEY = "sk-proj-a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8";
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY || "";
+const AWS_ACCESS_KEY_ID = process.env.AWS_ACCESS_KEY_ID || "";
+const AWS_SECRET_ACCESS_KEY = process.env.AWS_SECRET_ACCESS_KEY || "";
 
-// AWS credentials (pattern: AKIA + 16 chars)
-const AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE";
-const AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
+const STRIPE_SECRET_KEY = process.env.STRIPE_SECRET_KEY || "";
+const STRIPE_PUBLISHABLE_KEY = process.env.STRIPE_PUBLISHABLE_KEY || "";
 
-// Stripe keys - use placeholders so GitHub push protection allows; VibeSec can still check .env exposure
-const STRIPE_SECRET_KEY = "sk_live_[REPLACE_WITH_YOUR_KEY]";
-const STRIPE_PUBLISHABLE_KEY = "pk_live_[REPLACE_WITH_YOUR_KEY]";
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN || "";
 
-// GitHub personal access token (ghp_ + 36 chars)
-const GITHUB_TOKEN = "ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-
-// Generic secrets (non-placeholder values)
-const DB_PASSWORD = "P@ssw0rd!SuperSecret2024";
-const API_SECRET = "a7f3c9e1b2d4f6a8c0e2";
-const JWT_SECRET = "my-super-secret-jwt-signing-key-do-not-share";
+const DB_PASSWORD = process.env.DB_PASSWORD || "";
+const API_SECRET = process.env.API_SECRET || "";
+const JWT_SECRET = process.env.JWT_SECRET || "";
 
 module.exports = {
   OPENAI_API_KEY,

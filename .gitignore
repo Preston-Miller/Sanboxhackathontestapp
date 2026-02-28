@@ -15,4 +15,5 @@ env/
 *.swp
 *.swo
 
-# NOTE: .env is intentionally NOT listed - test fixture for VibeSec .env exposure scan
+# Environment and secrets - do not commit
+.env
