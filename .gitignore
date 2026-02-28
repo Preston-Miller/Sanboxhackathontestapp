@@ -17,3 +17,6 @@ env/
 
 # Environment and secrets - do not commit
 .env
+
+# Security scan output
+SECURITY_REPORT.md
