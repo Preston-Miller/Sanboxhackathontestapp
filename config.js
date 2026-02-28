@@ -1,6 +1,6 @@
 /**
  * App configuration - DO NOT use in production (test fixture for security scanner)
- * Updated: small change to trigger VibeSec scan on push (v2)
+ * Updated: small change to trigger VibeSec scan on push (v3)
  * All secrets loaded from environment - no hardcoded values.
  */
 

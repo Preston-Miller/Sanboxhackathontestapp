@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Demo app - test fixture for security scanner. Do not use in production.
-Small change to trigger VibeSec scan (v2).
+Small change to trigger VibeSec scan (v3).
 """
 
 import os

@@ -1,7 +1,7 @@
 {
   "name": "vibesec-test-app",
   "version": "1.0.0",
-  "description": "Test app for VibeSec security scanner - contains intentional findings",
+  "description": "Test app for VibeSec security scanner",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
