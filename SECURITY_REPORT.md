@@ -1,7 +1,7 @@
 # VibeSec Security Report
 Repo: Preston-Miller/Sanboxhackathontestapp
-Scanned: 2026-02-28 21:56:40 UTC
-Issues Found: 57
+Scanned: 2026-02-28 21:57:30 UTC
+Issues Found: 65
 
 You are an AI coding agent. Fix each issue below in order.
 Do not skip any issues. Do not ask clarifying questions.
@@ -12,8 +12,8 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 15
-**Evidence:** `API_KEY=sk-proj-test1234567890abcdefghijklmnopqrstuvwxyz````
+**Line:** 16
+**Evidence:** `API_KEY=sk-proj-test1234567890abcdefghijklmnopqrstuvwxyz`````
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -24,8 +24,8 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 26
-**Evidence:** `SECRET=jwt-signing-secret-key-32-chars-long!!````
+**Line:** 28
+**Evidence:** `SECRET=jwt-signing-secret-key-32-chars-long!!`````
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -36,8 +36,8 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 37
-**Evidence:** `API_KEY=prod_abcdef1234567890````
+**Line:** 40
+**Evidence:** `API_KEY=prod_abcdef1234567890`````
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -48,8 +48,8 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 48
-**Evidence:** `API_KEY=sk-proj-your-openai-key-here-20-chars-minimum````
+**Line:** 52
+**Evidence:** `API_KEY=sk-proj-your-openai-key-here-20-chars-minimum`````
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -60,7 +60,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 59
+**Line:** 64
 **Evidence:** `AKIAXXXXXXXXXXXXXXXX`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -72,8 +72,8 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 70
-**Evidence:** `SECRET=your-jwt-secret-at-least-32-characters````
+**Line:** 76
+**Evidence:** `SECRET=your-jwt-secret-at-least-32-characters`````
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -84,8 +84,8 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 81
-**Evidence:** `API_KEY=sk-proj-test1234567890abcdefghijklmnopqrstuvwxyz`````
+**Line:** 88
+**Evidence:** `API_KEY=sk-proj-test1234567890abcdefghijklmnopqrstuvwxyz````...`
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -96,8 +96,8 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 92
-**Evidence:** `SECRET=jwt-signing-secret-key-32-chars-long!!`````
+**Line:** 100
+**Evidence:** `SECRET=jwt-signing-secret-key-32-chars-long!!``````
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -108,8 +108,8 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 103
-**Evidence:** `API_KEY=prod_abcdef1234567890`````
+**Line:** 112
+**Evidence:** `API_KEY=prod_abcdef1234567890``````
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -120,8 +120,8 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 114
-**Evidence:** `API_KEY=sk-proj-your-openai-key-here-20-chars-minimum`````
+**Line:** 124
+**Evidence:** `API_KEY=sk-proj-your-openai-key-here-20-chars-minimum``````
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -132,7 +132,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 125
+**Line:** 136
 **Evidence:** `AKIAXXXXXXXXXXXXXXXX`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -144,8 +144,8 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 136
-**Evidence:** `SECRET=your-jwt-secret-at-least-32-characters`````
+**Line:** 148
+**Evidence:** `SECRET=your-jwt-secret-at-least-32-characters``````
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -156,7 +156,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 147
+**Line:** 160
 **Evidence:** `API_KEY = "sk-proj-z9y8x7w6v5u4t3s2r1q0p9o8n7m6l5k4j3i2h1"`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -168,7 +168,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 158
+**Line:** 172
 **Evidence:** `API_KEY = "prod_sk_abc123def456ghi789jkl012mno"`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -180,7 +180,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 169
+**Line:** 184
 **Evidence:** `password = "Tr0ub4dor&3"`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -192,7 +192,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 180
+**Line:** 196
 **Evidence:** `secret = "super-secret-internal-token-xyz789"`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -204,7 +204,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 191
+**Line:** 208
 **Evidence:** `API_KEY = "sk-proj-a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8"`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -216,7 +216,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 202
+**Line:** 220
 **Evidence:** `AKIAIOSFODNN7EXAMPLE`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -228,7 +228,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 213
+**Line:** 232
 **Evidence:** `ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -240,7 +240,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 224
+**Line:** 244
 **Evidence:** `PASSWORD = "P@ssw0rd!SuperSecret2024"`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -252,7 +252,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 235
+**Line:** 256
 **Evidence:** `SECRET = "a7f3c9e1b2d4f6a8c0e2"`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -264,7 +264,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 246
+**Line:** 268
 **Evidence:** `SECRET = "my-super-secret-jwt-signing-key-do-not-share"`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -276,7 +276,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 257
+**Line:** 280
 **Evidence:** `API_KEY = "sk-proj-z9y8x7w6v5u4t3s2r1q0p9o8n7m6l5k4j3i2h1"`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -288,7 +288,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 268
+**Line:** 292
 **Evidence:** `API_KEY = "prod_sk_abc123def456ghi789jkl012mno"`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -300,7 +300,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 279
+**Line:** 304
 **Evidence:** `password = "Tr0ub4dor&3"`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -312,7 +312,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 290
+**Line:** 316
 **Evidence:** `secret = "super-secret-internal-token-xyz789"`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -324,7 +324,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 301
+**Line:** 328
 **Evidence:** `API_KEY = "sk-proj-a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8"`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -336,7 +336,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 312
+**Line:** 340
 **Evidence:** `AKIAIOSFODNN7EXAMPLE`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -348,7 +348,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 323
+**Line:** 352
 **Evidence:** `ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -360,7 +360,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 334
+**Line:** 364
 **Evidence:** `PASSWORD = "P@ssw0rd!SuperSecret2024"`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -372,7 +372,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 345
+**Line:** 376
 **Evidence:** `SECRET = "a7f3c9e1b2d4f6a8c0e2"`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -384,7 +384,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 356
+**Line:** 388
 **Evidence:** `SECRET = "my-super-secret-jwt-signing-key-do-not-share"`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -396,7 +396,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 367
+**Line:** 400
 **Evidence:** `API_KEY = os.getenv("`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -408,7 +408,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 378
+**Line:** 412
 **Evidence:** `API_KEY = os.getenv("`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -420,7 +420,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 389
+**Line:** 424
 **Evidence:** `password = os.getenv("`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -432,7 +432,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 400
+**Line:** 436
 **Evidence:** `secret = os.getenv("`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -444,8 +444,8 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 411
-**Evidence:** `API_KEY = process.env.OPENAI_API_KEY```
+**Line:** 448
+**Evidence:** `API_KEY = process.env.OPENAI_API_KEY````
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -456,8 +456,8 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 422
-**Evidence:** `PASSWORD = process.env.DB_PASSWORD```
+**Line:** 460
+**Evidence:** `PASSWORD = process.env.DB_PASSWORD````
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -468,8 +468,8 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 433
-**Evidence:** `SECRET = process.env.API_SECRET```
+**Line:** 472
+**Evidence:** `SECRET = process.env.API_SECRET````
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -480,8 +480,8 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 444
-**Evidence:** `SECRET = process.env.JWT_SECRET```
+**Line:** 484
+**Evidence:** `SECRET = process.env.JWT_SECRET````
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -492,7 +492,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 455
+**Line:** 496
 **Evidence:** `API_KEY = os.getenv("`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -504,7 +504,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 466
+**Line:** 508
 **Evidence:** `API_KEY = os.getenv("`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -516,7 +516,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 477
+**Line:** 520
 **Evidence:** `password = os.getenv("`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -528,7 +528,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 488
+**Line:** 532
 **Evidence:** `secret = os.getenv("`
 **Risk:** Fix this issue to reduce security risk.
 
@@ -540,8 +540,8 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 499
-**Evidence:** `API_KEY = process.env.OPENAI_API_KEY``
+**Line:** 544
+**Evidence:** `API_KEY = process.env.OPENAI_API_KEY```
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -552,8 +552,8 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 510
-**Evidence:** `PASSWORD = process.env.DB_PASSWORD``
+**Line:** 556
+**Evidence:** `PASSWORD = process.env.DB_PASSWORD```
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -564,8 +564,8 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 521
-**Evidence:** `SECRET = process.env.API_SECRET``
+**Line:** 568
+**Evidence:** `SECRET = process.env.API_SECRET```
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -576,8 +576,8 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Type:** MD
-**Line:** 532
-**Evidence:** `SECRET = process.env.JWT_SECRET``
+**Line:** 580
+**Evidence:** `SECRET = process.env.JWT_SECRET```
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -585,6 +585,102 @@ After fixing all issues run the verification step for each.
 **Verify:** Confirm the issue is resolved.
 
 ## [SEV-049] CRITICAL -- Generic secret
+
+**File:** SECURITY_REPORT.md
+**Type:** MD
+**Line:** 592
+**Evidence:** `API_KEY = os.getenv("`
+**Risk:** Fix this issue to reduce security risk.
+
+**Fix Steps:**
+1. Address the finding as described in the evidence.
+**Verify:** Confirm the issue is resolved.
+
+## [SEV-050] CRITICAL -- Generic secret
+
+**File:** SECURITY_REPORT.md
+**Type:** MD
+**Line:** 604
+**Evidence:** `API_KEY = os.getenv("`
+**Risk:** Fix this issue to reduce security risk.
+
+**Fix Steps:**
+1. Address the finding as described in the evidence.
+**Verify:** Confirm the issue is resolved.
+
+## [SEV-051] CRITICAL -- Generic secret
+
+**File:** SECURITY_REPORT.md
+**Type:** MD
+**Line:** 616
+**Evidence:** `password = os.getenv("`
+**Risk:** Fix this issue to reduce security risk.
+
+**Fix Steps:**
+1. Address the finding as described in the evidence.
+**Verify:** Confirm the issue is resolved.
+
+## [SEV-052] CRITICAL -- Generic secret
+
+**File:** SECURITY_REPORT.md
+**Type:** MD
+**Line:** 628
+**Evidence:** `secret = os.getenv("`
+**Risk:** Fix this issue to reduce security risk.
+
+**Fix Steps:**
+1. Address the finding as described in the evidence.
+**Verify:** Confirm the issue is resolved.
+
+## [SEV-053] CRITICAL -- Generic secret
+
+**File:** SECURITY_REPORT.md
+**Type:** MD
+**Line:** 640
+**Evidence:** `API_KEY = process.env.OPENAI_API_KEY``
+**Risk:** Fix this issue to reduce security risk.
+
+**Fix Steps:**
+1. Address the finding as described in the evidence.
+**Verify:** Confirm the issue is resolved.
+
+## [SEV-054] CRITICAL -- Generic secret
+
+**File:** SECURITY_REPORT.md
+**Type:** MD
+**Line:** 652
+**Evidence:** `PASSWORD = process.env.DB_PASSWORD``
+**Risk:** Fix this issue to reduce security risk.
+
+**Fix Steps:**
+1. Address the finding as described in the evidence.
+**Verify:** Confirm the issue is resolved.
+
+## [SEV-055] CRITICAL -- Generic secret
+
+**File:** SECURITY_REPORT.md
+**Type:** MD
+**Line:** 664
+**Evidence:** `SECRET = process.env.API_SECRET``
+**Risk:** Fix this issue to reduce security risk.
+
+**Fix Steps:**
+1. Address the finding as described in the evidence.
+**Verify:** Confirm the issue is resolved.
+
+## [SEV-056] CRITICAL -- Generic secret
+
+**File:** SECURITY_REPORT.md
+**Type:** MD
+**Line:** 676
+**Evidence:** `SECRET = process.env.JWT_SECRET``
+**Risk:** Fix this issue to reduce security risk.
+
+**Fix Steps:**
+1. Address the finding as described in the evidence.
+**Verify:** Confirm the issue is resolved.
+
+## [SEV-057] CRITICAL -- Generic secret
 
 **File:** app.py
 **Type:** Python
@@ -596,7 +692,7 @@ After fixing all issues run the verification step for each.
 1. Address the finding as described in the evidence.
 **Verify:** Confirm the issue is resolved.
 
-## [SEV-050] CRITICAL -- Generic secret
+## [SEV-058] CRITICAL -- Generic secret
 
 **File:** app.py
 **Type:** Python
@@ -608,7 +704,7 @@ After fixing all issues run the verification step for each.
 1. Address the finding as described in the evidence.
 **Verify:** Confirm the issue is resolved.
 
-## [SEV-051] CRITICAL -- Generic secret
+## [SEV-059] CRITICAL -- Generic secret
 
 **File:** app.py
 **Type:** Python
@@ -620,7 +716,7 @@ After fixing all issues run the verification step for each.
 1. Address the finding as described in the evidence.
 **Verify:** Confirm the issue is resolved.
 
-## [SEV-052] CRITICAL -- Generic secret
+## [SEV-060] CRITICAL -- Generic secret
 
 **File:** app.py
 **Type:** Python
@@ -632,7 +728,7 @@ After fixing all issues run the verification step for each.
 1. Address the finding as described in the evidence.
 **Verify:** Confirm the issue is resolved.
 
-## [SEV-053] CRITICAL -- Generic secret
+## [SEV-061] CRITICAL -- Generic secret
 
 **File:** config.js
 **Type:** JavaScript
@@ -644,7 +740,7 @@ After fixing all issues run the verification step for each.
 1. Address the finding as described in the evidence.
 **Verify:** Confirm the issue is resolved.
 
-## [SEV-054] CRITICAL -- Generic secret
+## [SEV-062] CRITICAL -- Generic secret
 
 **File:** config.js
 **Type:** JavaScript
@@ -656,7 +752,7 @@ After fixing all issues run the verification step for each.
 1. Address the finding as described in the evidence.
 **Verify:** Confirm the issue is resolved.
 
-## [SEV-055] CRITICAL -- Generic secret
+## [SEV-063] CRITICAL -- Generic secret
 
 **File:** config.js
 **Type:** JavaScript
@@ -668,7 +764,7 @@ After fixing all issues run the verification step for each.
 1. Address the finding as described in the evidence.
 **Verify:** Confirm the issue is resolved.
 
-## [SEV-056] CRITICAL -- Generic secret
+## [SEV-064] CRITICAL -- Generic secret
 
 **File:** config.js
 **Type:** JavaScript
@@ -680,7 +776,7 @@ After fixing all issues run the verification step for each.
 1. Address the finding as described in the evidence.
 **Verify:** Confirm the issue is resolved.
 
-## [SEV-057] CRITICAL -- .env: dotenv_example_has_credentials
+## [SEV-065] CRITICAL -- .env: dotenv_example_has_credentials
 
 **File:** .env.example
 **Type:** EXAMPLE
