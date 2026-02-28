@@ -1,7 +1,7 @@
 # VibeSec Security Report
 Repo: Preston-Miller/Sanboxhackathontestapp
-Scanned: 2026-02-28 21:51:12 UTC
-Issues Found: 41
+Scanned: 2026-02-28 21:53:21 UTC
+Issues Found: 49
 
 You are an AI coding agent. Fix each issue below in order.
 Do not skip any issues. Do not ask clarifying questions.
@@ -12,7 +12,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Line:** 15
-**Evidence:** `API_KEY=sk-proj-test1234567890abcdefghijklmnopqrstuvwxyz``
+**Evidence:** `API_KEY=sk-proj-test1234567890abcdefghijklmnopqrstuvwxyz```
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -23,7 +23,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Line:** 26
-**Evidence:** `SECRET=jwt-signing-secret-key-32-chars-long!!``
+**Evidence:** `SECRET=jwt-signing-secret-key-32-chars-long!!```
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -34,7 +34,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Line:** 37
-**Evidence:** `API_KEY=prod_abcdef1234567890``
+**Evidence:** `API_KEY=prod_abcdef1234567890```
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -45,7 +45,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Line:** 48
-**Evidence:** `API_KEY=sk-proj-your-openai-key-here-20-chars-minimum``
+**Evidence:** `API_KEY=sk-proj-your-openai-key-here-20-chars-minimum```
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -67,7 +67,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Line:** 70
-**Evidence:** `SECRET=your-jwt-secret-at-least-32-characters``
+**Evidence:** `SECRET=your-jwt-secret-at-least-32-characters```
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -78,7 +78,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Line:** 81
-**Evidence:** `API_KEY=sk-proj-test1234567890abcdefghijklmnopqrstuvwxyz```
+**Evidence:** `API_KEY=sk-proj-test1234567890abcdefghijklmnopqrstuvwxyz````
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -89,7 +89,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Line:** 92
-**Evidence:** `SECRET=jwt-signing-secret-key-32-chars-long!!```
+**Evidence:** `SECRET=jwt-signing-secret-key-32-chars-long!!````
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -100,7 +100,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Line:** 103
-**Evidence:** `API_KEY=prod_abcdef1234567890```
+**Evidence:** `API_KEY=prod_abcdef1234567890````
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -111,7 +111,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Line:** 114
-**Evidence:** `API_KEY=sk-proj-your-openai-key-here-20-chars-minimum```
+**Evidence:** `API_KEY=sk-proj-your-openai-key-here-20-chars-minimum````
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -133,7 +133,7 @@ After fixing all issues run the verification step for each.
 
 **File:** SECURITY_REPORT.md
 **Line:** 136
-**Evidence:** `SECRET=your-jwt-secret-at-least-32-characters```
+**Evidence:** `SECRET=your-jwt-secret-at-least-32-characters````
 **Risk:** Fix this issue to reduce security risk.
 
 **Fix Steps:**
@@ -362,6 +362,94 @@ After fixing all issues run the verification step for each.
 
 ## [SEV-033] CRITICAL -- Generic secret
 
+**File:** SECURITY_REPORT.md
+**Line:** 367
+**Evidence:** `API_KEY = os.getenv("`
+**Risk:** Fix this issue to reduce security risk.
+
+**Fix Steps:**
+1. Address the finding as described in the evidence.
+**Verify:** Confirm the issue is resolved.
+
+## [SEV-034] CRITICAL -- Generic secret
+
+**File:** SECURITY_REPORT.md
+**Line:** 378
+**Evidence:** `API_KEY = os.getenv("`
+**Risk:** Fix this issue to reduce security risk.
+
+**Fix Steps:**
+1. Address the finding as described in the evidence.
+**Verify:** Confirm the issue is resolved.
+
+## [SEV-035] CRITICAL -- Generic secret
+
+**File:** SECURITY_REPORT.md
+**Line:** 389
+**Evidence:** `password = os.getenv("`
+**Risk:** Fix this issue to reduce security risk.
+
+**Fix Steps:**
+1. Address the finding as described in the evidence.
+**Verify:** Confirm the issue is resolved.
+
+## [SEV-036] CRITICAL -- Generic secret
+
+**File:** SECURITY_REPORT.md
+**Line:** 400
+**Evidence:** `secret = os.getenv("`
+**Risk:** Fix this issue to reduce security risk.
+
+**Fix Steps:**
+1. Address the finding as described in the evidence.
+**Verify:** Confirm the issue is resolved.
+
+## [SEV-037] CRITICAL -- Generic secret
+
+**File:** SECURITY_REPORT.md
+**Line:** 411
+**Evidence:** `API_KEY = process.env.OPENAI_API_KEY``
+**Risk:** Fix this issue to reduce security risk.
+
+**Fix Steps:**
+1. Address the finding as described in the evidence.
+**Verify:** Confirm the issue is resolved.
+
+## [SEV-038] CRITICAL -- Generic secret
+
+**File:** SECURITY_REPORT.md
+**Line:** 422
+**Evidence:** `PASSWORD = process.env.DB_PASSWORD``
+**Risk:** Fix this issue to reduce security risk.
+
+**Fix Steps:**
+1. Address the finding as described in the evidence.
+**Verify:** Confirm the issue is resolved.
+
+## [SEV-039] CRITICAL -- Generic secret
+
+**File:** SECURITY_REPORT.md
+**Line:** 433
+**Evidence:** `SECRET = process.env.API_SECRET``
+**Risk:** Fix this issue to reduce security risk.
+
+**Fix Steps:**
+1. Address the finding as described in the evidence.
+**Verify:** Confirm the issue is resolved.
+
+## [SEV-040] CRITICAL -- Generic secret
+
+**File:** SECURITY_REPORT.md
+**Line:** 444
+**Evidence:** `SECRET = process.env.JWT_SECRET``
+**Risk:** Fix this issue to reduce security risk.
+
+**Fix Steps:**
+1. Address the finding as described in the evidence.
+**Verify:** Confirm the issue is resolved.
+
+## [SEV-041] CRITICAL -- Generic secret
+
 **File:** app.py
 **Line:** 11
 **Evidence:** `API_KEY = os.getenv("`
@@ -371,7 +459,7 @@ After fixing all issues run the verification step for each.
 1. Address the finding as described in the evidence.
 **Verify:** Confirm the issue is resolved.
 
-## [SEV-034] CRITICAL -- Generic secret
+## [SEV-042] CRITICAL -- Generic secret
 
 **File:** app.py
 **Line:** 12
@@ -382,7 +470,7 @@ After fixing all issues run the verification step for each.
 1. Address the finding as described in the evidence.
 **Verify:** Confirm the issue is resolved.
 
-## [SEV-035] CRITICAL -- Generic secret
+## [SEV-043] CRITICAL -- Generic secret
 
 **File:** app.py
 **Line:** 13
@@ -393,7 +481,7 @@ After fixing all issues run the verification step for each.
 1. Address the finding as described in the evidence.
 **Verify:** Confirm the issue is resolved.
 
-## [SEV-036] CRITICAL -- Generic secret
+## [SEV-044] CRITICAL -- Generic secret
 
 **File:** app.py
 **Line:** 14
@@ -404,7 +492,7 @@ After fixing all issues run the verification step for each.
 1. Address the finding as described in the evidence.
 **Verify:** Confirm the issue is resolved.
 
-## [SEV-037] CRITICAL -- Generic secret
+## [SEV-045] CRITICAL -- Generic secret
 
 **File:** config.js
 **Line:** 7
@@ -415,7 +503,7 @@ After fixing all issues run the verification step for each.
 1. Address the finding as described in the evidence.
 **Verify:** Confirm the issue is resolved.
 
-## [SEV-038] CRITICAL -- Generic secret
+## [SEV-046] CRITICAL -- Generic secret
 
 **File:** config.js
 **Line:** 16
@@ -426,7 +514,7 @@ After fixing all issues run the verification step for each.
 1. Address the finding as described in the evidence.
 **Verify:** Confirm the issue is resolved.
 
-## [SEV-039] CRITICAL -- Generic secret
+## [SEV-047] CRITICAL -- Generic secret
 
 **File:** config.js
 **Line:** 17
@@ -437,7 +525,7 @@ After fixing all issues run the verification step for each.
 1. Address the finding as described in the evidence.
 **Verify:** Confirm the issue is resolved.
 
-## [SEV-040] CRITICAL -- Generic secret
+## [SEV-048] CRITICAL -- Generic secret
 
 **File:** config.js
 **Line:** 18
@@ -448,7 +536,7 @@ After fixing all issues run the verification step for each.
 1. Address the finding as described in the evidence.
 **Verify:** Confirm the issue is resolved.
 
-## [SEV-041] CRITICAL -- .env: dotenv_example_has_credentials
+## [SEV-049] CRITICAL -- .env: dotenv_example_has_credentials
 
 **File:** .env.example
 **Detail:** .env.example contains real-looking value for AWS_SECRET_ACCESS_KEY
