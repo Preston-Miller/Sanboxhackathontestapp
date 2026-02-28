@@ -1,5 +1,6 @@
 /**
  * App configuration - DO NOT use in production (test fixture for security scanner)
+ * Updated: small change to trigger VibeSec scan on push
  */
 
 // OpenAI API key (pattern: sk- + 20+ alphanumeric)
