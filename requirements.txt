@@ -1,0 +1,2 @@
+# Python deps - requests 2.28.0 has known CVEs (scanner test fixture)
+requests==2.28.0

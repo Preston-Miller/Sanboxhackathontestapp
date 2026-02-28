@@ -1,0 +1,15 @@
+{
+  "name": "vibesec-test-app",
+  "version": "1.0.0",
+  "description": "Test app for VibeSec security scanner - contains intentional findings",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests\" && exit 0"
+  },
+  "dependencies": {
+    "body-parser": "1.19.2",
+    "express": "4.18.2"
+  },
+  "devDependencies": {}
+}
