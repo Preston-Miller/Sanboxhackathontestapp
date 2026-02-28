@@ -21,4 +21,5 @@ def call_api():
 
 
 if __name__ == "__main__":
+    print("App v1.0.1")
     print(call_api())

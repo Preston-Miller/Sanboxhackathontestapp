@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/health", (req, res) => {
-  res.json({ status: "ok" });
+  res.json({ status: "ok", version: "1.0.1" });
 });
 
 const PORT = process.env.PORT || 3000;
